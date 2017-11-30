@@ -477,12 +477,17 @@ label {
 
 
 /*	Gallery	==================================================*/ 
+#gallery {
+	background-image: url(../img/wood-2.jpg);
+	background-size: cover;
+}
 
 #gallery img {
 	width:100%;
 	height:auto;
-		transition:all .3s ease-in-out;
+	transition:all .3s ease-in-out;
 }
+
 #gallery img:hover {
 	transform:scale(1.3);
 }
@@ -515,6 +520,14 @@ label {
 #gallery a.btn {
 	display:inline-block;
 }
+
+#gallery .parallax-overlay {
+	background-color: #8B635B;
+	opacity:0.8;
+	background-size: cover;
+	height: 100vh;
+}
+
 /*	Faq==================================================*/ 
 #faq {
 	background-color:#F9FAFD;
@@ -1277,4 +1290,8 @@ img.mfp-img {
 	.faq-block {
 					margin: 0;
 	}
+}
+
+.hide {
+	display: none;
 }
