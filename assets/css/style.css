@@ -1342,3 +1342,7 @@ img.mfp-img {
 .bordered {
 	border: solid 3px #fff;
 }
+
+.gallery-title {
+	margin-bottom: 10px;
+}
