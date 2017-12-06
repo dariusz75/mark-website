@@ -357,8 +357,8 @@ function parallax() {
 			});
 		});
 
-		/*	Gallery
-		================================================== */		
+        /*	Gallery 
+        		
 			$('#gallery').magnificPopup({
 				delegate: 'a',
 				type: 'image',
@@ -376,7 +376,7 @@ function parallax() {
 					}
 				}
 			});		
-
+            */
 
 		/*	Bootstrap Carousel
 		================================================== */
