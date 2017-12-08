@@ -708,7 +708,7 @@ label {
 	font-size:14px;
 }
 #contact textarea {
-	height:180px;
+	height:140px;
 }
 .required {
 	color:#fff;
@@ -1345,4 +1345,16 @@ img.mfp-img {
 
 .gallery-title {
 	margin-bottom: 10px;
+}
+
+.references {
+	padding-top: 30px;
+	text-align: center;
+	font-size: 3em;
+	font-weight: 400;
+}
+
+span.message {
+	padding-top: 50px!important;
+	color: red;
 }
